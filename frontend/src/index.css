@@ -1,0 +1,141 @@
+*{
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.pricing{
+  display: flex;
+}
+
+.pricingBox{
+  display: flex;
+}
+
+.pricingBox img{
+  width: 50%;
+}
+
+.equity img{
+  width: 45%;
+}
+
+.pricingBox p{
+  margin-top: 3rem;
+  font-size: 0.7rem;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.social i{
+  font-size: 1.25rem;
+  margin-right: 15px;
+}
+
+.foot-p a{
+  text-decoration: none;
+}
+
+.foot-end{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 50px;
+}
+
+.foot-end a{
+  font-size: 0.8rem;
+  text-decoration: none;
+}
+
+.ceo{
+  border-radius: 50%;
+  width: 300px;
+}
+
+/*support-page*/
+
+.search-box {
+  position: relative;
+  display: inline-block;
+  width: 80vw;
+  box-shadow: 0px 0px 25px rgba(0,0,0,0.3);
+}
+
+.search-box input {
+  padding-right: 35px;
+  width: 80vw;
+  height: 3rem;
+  border: none;
+}
+
+.search-box i {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: gray;
+  pointer-events: none;
+}
+
+
+/* Accordion styling */
+.accordion-button {
+  font-weight: 500;
+  color: #1f2937;
+  background: #fff;
+  border: none;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+  border: none;
+}
+
+.accordion-item {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.accordion-button:not(.collapsed) {
+  background: #f9fafb;
+  color: #0d6efd;
+}
+
+/* Notice Box */
+.bg-warning-subtle {
+  background: #fff7ed !important;
+}
+
+.bg-warning-subtle a {
+  font-size: 0.95rem;
+  text-decoration: none;
+}
+
+.bg-warning-subtle a:hover {
+  text-decoration: underline;
+}
+
+/* Quick Links */
+.card-header {
+  font-size: 1rem;
+}
+
+.list-group-item {
+  font-size: 0.95rem;
+  border-color: #f1f5f9;
+}
