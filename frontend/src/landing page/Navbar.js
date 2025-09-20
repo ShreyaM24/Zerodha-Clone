@@ -55,11 +55,11 @@ function Navbar() {
                     }}
                 >
                     {/* Top apps row with images */}
-                    <div className="d-flex justify-content-around text-center mb-4">
-                        <Link to="http://localhost:3000/"><div>
+                    <div className="d-flex justify-content-around text-center mb-4" >
+                        <Link to="http://localhost:3001/"><div>
                             <img src="https://zerodha.com/static/images/products/kite-logo.svg" alt="Kite" style={{ width: "40px", marginBottom: "8px" }} />
-                            <h6 className="mb-1">Kite</h6>
-                            <small className="text-muted">Trading platform</small>
+                            <h6 className="mb-1" style={{textDecoration: "none"}}>Kite</h6>
+                            <small className="text-muted" style={{textDecoration: "none"}}>Trading platform</small>
                         </div></Link>
                         <div>
                             <img src="https://zerodha.com/static/images/products/console.svg" alt="Console" style={{ width: "40px", marginBottom: "8px" }} />
